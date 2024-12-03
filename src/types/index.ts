@@ -1,3 +1,16 @@
-export { type PokemonBaseType as PokemonType } from "./PokemonBaseType";
+export { type PokemonBaseType } from "./PokemonBaseType";
 export { type PokemonMoveType } from "./PokemonMoveType";
 export { type WeaknessAndResistance } from "./WeaknessAndResistance";
+export { type BaseStats } from "./BaseStats";
+export { type EffortValueType } from "./EffortValueType";
+export { type EffortValues } from "./EffortValues";
+export { type IndividualValueType } from "./IndividualValueType";
+export { type IndividualValues } from "./IndividualValues";
+export { type Range } from "./Range";
+export { type InBattleStats } from "./InBattleStats";
+export { type NatureType } from "./NatureType";
+export { type Natures } from "./Natures";
+export { type Flavors } from "./Flavors";
+export { type Level } from "./Level";
+export { type Characteristics } from "./Characteristics";
+export { type CharacteristicDataType } from "./CharacteristicDataType";

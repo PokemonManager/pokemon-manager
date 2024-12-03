@@ -1,5 +1,4 @@
-import type { WeaknessAndResistance } from "@/types";
-import type { PokemonBaseType } from "@/types/PokemonBaseType";
+import type { WeaknessAndResistance, PokemonBaseType } from "@/types";
 
 export const WeaknessAndResistanceTypes: Record<
   PokemonBaseType,

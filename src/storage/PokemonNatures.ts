@@ -1,0 +1,155 @@
+import type { Natures } from "@/types/Natures";
+import type { NatureType } from "@/types/NatureType";
+
+export const PokemonNatures: Record<Natures, NatureType> = {
+  Hardy: {
+    decreased: "Attack",
+    increased: "Attack",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Sour",
+  },
+  Lonely: {
+    decreased: "Defense",
+    increased: "Attack",
+    favoriteFlavor: "Spicy",
+    dislikedFlavor: "Bitter",
+  },
+  Brave: {
+    decreased: "Speed",
+    increased: "Attack",
+    favoriteFlavor: "Spicy",
+    dislikedFlavor: "Sweet",
+  },
+  Adamant: {
+    decreased: "SpecialAttack",
+    increased: "Attack",
+    favoriteFlavor: "Spicy",
+    dislikedFlavor: "Dry",
+  },
+  Naughty: {
+    decreased: "SpecialDefense",
+    increased: "Attack",
+    favoriteFlavor: "Spicy",
+    dislikedFlavor: "Sweet",
+  },
+  Bold: {
+    decreased: "Attack",
+    increased: "Defense",
+    favoriteFlavor: "Sour",
+    dislikedFlavor: "Sweet",
+  },
+  Docile: {
+    decreased: "Attack",
+    increased: "Attack",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Sour",
+  },
+  Relaxed: {
+    decreased: "Speed",
+    increased: "Defense",
+    favoriteFlavor: "Sour",
+    dislikedFlavor: "Bitter",
+  },
+  Impish: {
+    decreased: "SpecialAttack",
+    increased: "Defense",
+    favoriteFlavor: "Sour",
+    dislikedFlavor: "Dry",
+  },
+  Lax: {
+    decreased: "SpecialDefense",
+    increased: "Defense",
+    favoriteFlavor: "Sour",
+    dislikedFlavor: "Sweet",
+  },
+  Timid: {
+    decreased: "Attack",
+    increased: "Speed",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Spicy",
+  },
+  Hasty: {
+    decreased: "Defense",
+    increased: "Speed",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Sour",
+  },
+  Serious: {
+    decreased: "SpecialAttack",
+    increased: "SpecialAttack",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Bitter",
+  },
+  Jolly: {
+    decreased: "SpecialAttack",
+    increased: "Speed",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Sour",
+  },
+  Naive: {
+    decreased: "SpecialDefense",
+    increased: "Speed",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Dry",
+  },
+  Modest: {
+    decreased: "Attack",
+    increased: "SpecialAttack",
+    favoriteFlavor: "Dry",
+    dislikedFlavor: "Spicy",
+  },
+  Mild: {
+    decreased: "Defense",
+    increased: "SpecialAttack",
+    favoriteFlavor: "Dry",
+    dislikedFlavor: "Sour",
+  },
+  Quiet: {
+    decreased: "Speed",
+    increased: "SpecialAttack",
+    favoriteFlavor: "Dry",
+    dislikedFlavor: "Sweet",
+  },
+  Bashful: {
+    decreased: "SpecialDefense",
+    increased: "SpecialDefense",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Sour",
+  },
+  Rash: {
+    decreased: "SpecialDefense",
+    increased: "SpecialAttack",
+    favoriteFlavor: "Dry",
+    dislikedFlavor: "Bitter",
+  },
+  Calm: {
+    decreased: "Attack",
+    increased: "SpecialDefense",
+    favoriteFlavor: "Bitter",
+    dislikedFlavor: "Spicy",
+  },
+  Gentle: {
+    decreased: "Attack",
+    increased: "SpecialDefense",
+    favoriteFlavor: "Bitter",
+    dislikedFlavor: "Sweet",
+  },
+  Sassy: {
+    decreased: "Speed",
+    increased: "SpecialDefense",
+    favoriteFlavor: "Bitter",
+    dislikedFlavor: "Dry",
+  },
+  Careful: {
+    decreased: "SpecialAttack",
+    increased: "SpecialDefense",
+    favoriteFlavor: "Bitter",
+    dislikedFlavor: "Sweet",
+  },
+  Quirky: {
+    decreased: "Speed",
+    increased: "Speed",
+    favoriteFlavor: "Sweet",
+    dislikedFlavor: "Sour",
+  },
+};
