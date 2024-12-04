@@ -1,9 +1,9 @@
-import type { GrowthRate } from "@/types";
+import type { GrowthRate, Level } from "@/types";
 
-type TotalExpPointsFunction = (level: number) => number;
+type TotalExpPointsFunction = (level: Level) => number;
 
 export const TotalExpPointsByLvl: Record<GrowthRate, TotalExpPointsFunction> = {
-  Erratic: (level: number) => {
+  Erratic: (level: Level) => {
     if (level < 50) {
       return Math.floor((level ** 3 * (100 - level)) / 50);
     } else if (level >= 50 && level < 68) {
@@ -15,21 +15,21 @@ export const TotalExpPointsByLvl: Record<GrowthRate, TotalExpPointsFunction> = {
 
     return Math.floor((level ** 3 * (160 - level)) / 100);
   },
-  Fast: (level: number) => {
+  Fast: (level: Level) => {
     return Math.floor((4 * level ** 3) / 5);
   },
-  "Medium Fast": (level: number) => {
+  "Medium Fast": (level: Level) => {
     return Math.floor(level ** 3);
   },
-  "Medium Slow": (level: number) => {
+  "Medium Slow": (level: Level) => {
     return Math.floor(
       (6 / 5) * level ** 3 - 15 * level ** 2 + 100 * level - 140
     );
   },
-  Slow: (level: number) => {
+  Slow: (level: Level) => {
     return Math.floor((5 * level ** 3) / 4);
   },
-  Fluctuating: (level: number) => {
+  Fluctuating: (level: Level) => {
     if (level < 15) {
       const rounding = Math.floor((level + 1) / 3);
 

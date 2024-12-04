@@ -15,3 +15,7 @@ export { type Level } from "./Level";
 export { type Characteristics } from "./Characteristics";
 export { type CharacteristicDataType } from "./CharacteristicDataType";
 export { type GrowthRate } from "./GrowthRate";
+export { type PokemonSchema } from "./PokemonSchema";
+export { type Url } from "./Url";
+export { type PokemonStats } from "./PokemonStats";
+export { type PokemonBaseData } from "./PokemonBaseData";

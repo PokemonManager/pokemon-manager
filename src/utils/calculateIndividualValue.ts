@@ -30,5 +30,5 @@ export function calculateIndividualValue(
       5;
   }
 
-  return individualValue;
+  return Math.floor(individualValue);
 }
