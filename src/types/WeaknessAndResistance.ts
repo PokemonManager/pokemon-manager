@@ -1,7 +1,7 @@
-import type { PokemonBaseType } from "./PokemonBaseType";
+import type { BaseTypes } from "./BaseTypes";
 
 export type WeaknessAndResistance = {
-  weakness: Array<PokemonBaseType>;
-  resistance: Array<PokemonBaseType>;
-  noDamage: Array<PokemonBaseType> | [];
+  weakness: Array<BaseTypes>;
+  resistance: Array<BaseTypes>;
+  noDamage: Array<BaseTypes> | [];
 };

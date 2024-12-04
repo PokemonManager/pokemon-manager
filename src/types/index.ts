@@ -1,5 +1,5 @@
-export { type PokemonBaseType } from "./PokemonBaseType";
-export { type PokemonMoveType } from "./PokemonMoveType";
+export { type BaseTypes } from "./BaseTypes";
+export { type MoveTypes } from "./MoveTypes";
 export { type WeaknessAndResistance } from "./WeaknessAndResistance";
 export { type BaseStats } from "./BaseStats";
 export { type EffortValueType } from "./EffortValueType";

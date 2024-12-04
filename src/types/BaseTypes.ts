@@ -1,4 +1,4 @@
-export type PokemonBaseType =
+export type BaseTypes =
   | "Normal"
   | "Fighting"
   | "Flying"

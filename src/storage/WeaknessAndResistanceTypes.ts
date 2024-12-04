@@ -1,7 +1,7 @@
-import type { WeaknessAndResistance, PokemonBaseType } from "@/types";
+import type { WeaknessAndResistance, BaseTypes } from "@/types";
 
 export const WeaknessAndResistanceTypes: Record<
-  PokemonBaseType,
+  BaseTypes,
   WeaknessAndResistance
 > = {
   Bug: {

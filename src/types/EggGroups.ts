@@ -1,0 +1,16 @@
+export type EggGroups =
+  | "Amorphous"
+  | "Bug"
+  | "Dragon"
+  | "Fairy"
+  | "Field"
+  | "Flying"
+  | "Grass"
+  | "Human Like"
+  | "Minaral"
+  | "Monster"
+  | "Water 1"
+  | "Water 2"
+  | "Water 3"
+  | "Ditto"
+  | "Undiscovered";
