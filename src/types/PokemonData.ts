@@ -4,7 +4,7 @@ import type { IndividualBreedingData } from "./IndividualBreedingData";
 import type { PokemonTraining } from "./PokemonTraining";
 import type { Url } from "./Url";
 
-export type PokemonBaseData = {
+export type PokemonData = {
   name: string;
   number: number;
   sprite: Url;
