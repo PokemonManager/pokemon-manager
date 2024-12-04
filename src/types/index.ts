@@ -14,3 +14,4 @@ export { type Flavors } from "./Flavors";
 export { type Level } from "./Level";
 export { type Characteristics } from "./Characteristics";
 export { type CharacteristicDataType } from "./CharacteristicDataType";
+export { type GrowthRate } from "./GrowthRate";
